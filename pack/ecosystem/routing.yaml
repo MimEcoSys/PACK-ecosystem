@@ -91,6 +91,12 @@ kinds:
     frontmatter_check: {field: type, value: concept}
     storage: file   # РП-611 Ф3: концепция и манифест экосистемы
 
+  ECO.PRIN:
+    dir: pack/ecosystem/02-domain-entities/
+    id_pattern: 'ECO\.PRIN\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: principles}
+    storage: file   # РП-611 Ф4: свод принципов экосистемы
+
   ECO.SYS:
     dir: pack/ecosystem/02-domain-entities/
     id_pattern: 'ECO\.SYS\.\d{3}-[a-z0-9-]+\.md$'
