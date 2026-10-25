@@ -85,6 +85,12 @@ kinds:
     frontmatter_check: {field: type, value: domain-entity}
     storage: file
 
+  ECO.CONCEPT:
+    dir: pack/ecosystem/02-domain-entities/
+    id_pattern: 'ECO\.CONCEPT\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: concept}
+    storage: file   # РП-611 Ф3: концепция и манифест экосистемы
+
   ECO.SYS:
     dir: pack/ecosystem/02-domain-entities/
     id_pattern: 'ECO\.SYS\.\d{3}-[a-z0-9-]+\.md$'
