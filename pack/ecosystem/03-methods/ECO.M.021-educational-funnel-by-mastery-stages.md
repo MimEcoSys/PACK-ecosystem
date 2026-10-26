@@ -11,7 +11,7 @@ s2r_families: [F4]
 related:
   uses: [ECO.D.014, PD.FORM.089]
   see_also: [ECO.M.010, ECO.M.018, MIM.M.031]
-source: "WP-385 (Программа Личного развития с наставниками) + WP-188 (Конвейер продвижения)"
+source: "WP-385 (Программа Личного развития с наставниками) + WP-188 (Воронка продвижения)"
 ---
 
 # Метод: Educational Funnel by Mastery Stages
