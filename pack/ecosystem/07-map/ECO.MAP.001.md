@@ -2,14 +2,14 @@
 id: ECO.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-07-16
-last_updated: 2026-07-16
+created: 2026-10-26
+last_updated: 2026-10-26
 generated: true
 ---
 
 # [ECO.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-07-16. Do not edit manually.
+> Auto-generated from frontmatter on 2026-10-26. Do not edit manually.
 
 ---
 
@@ -17,18 +17,21 @@ generated: true
 
 | Kind | Count |
 |------|-------|
+| ARCH (ARCH) | 1 |
 | BC (BC) | 1 |
-| Distinctions (D) | 14 |
+| CONCEPT (CONCEPT) | 2 |
+| Distinctions (D) | 21 |
 | Failure Modes (FM) | 3 |
-| Methods (M) | 27 |
+| Methods (M) | 31 |
 | Maps (MAP) | 3 |
 | PIPE (PIPE) | 2 |
+| PRIN (PRIN) | 1 |
 | ROLE (ROLE) | 1 |
 | SC (SC) | 3 |
 | SoTA Annotations (SOTA) | 7 |
 | SYS (SYS) | 3 |
 | Work Products (WP) | 1 |
-| **Total** | **65** |
+| **Total** | **80** |
 
 ## Distinctions
 
@@ -48,6 +51,13 @@ generated: true
 | ECO.D.011 | Retention-сигнал ≠ Cancel | — | draft |
 | ECO.D.012 | Возмездная транзакция ≠ Учёт балансов | — | draft |
 | ECO.D.013 | CAC-бюджет рефералов ≠ loyalty-бюджет действующих пользователей | — | — |
+| ECO.D.021 | «У ИИ нет памяти» ≠ «У ИИ память есть, но она чужая» | — | — |
+| ECO.D.022 | Статусное сообщение («эксперт крутой → продукт крутой») ≠ Предметное описание пользы (механика + цена + цифра экономии) | — | — |
+| ECO.D.023 | Оплата обучения ≠ спрос на продукт; внутренний пилот ≠ внешний платный спрос; самостоятельное возвращение ≠ задание наставника | — | — |
+| ECO.D.024 | Монотонная веха «хотя бы раз» ≠ Периодический агрегат | — | — |
+| ECO.D.025 | Минимально достаточное развивающее воздействие ≠ Постоянное внешнее руководство | — | — |
+| ECO.D.026 | «ИИ выполнил задачу» ≠ «Человек освоил метод последующих изменений» | — | — |
+| ECO.D.027 | Две таксономии на разных осях ≠ Противоречие | — | — |
 
 ## Methods
 
@@ -80,6 +90,10 @@ generated: true
 | ECO.M.025 | Outcome Tags for Support Log | — | active |
 | ECO.M.026 | Audience Segment Description 13 Blocks | Структурированное описание сегмента целевой аудитории из 13 блоков: от болей и JTBD до критериев отбора и связей с другими сегментами | draft |
 | ECO.M.027 | Benchmark Showcase: бенчмарк публичной витрины против одного известного альтернативного продукта | — | active |
+| ECO.M.028 | Signal-Based Outbound: управляемое привлечение в экосистему по сигналам | — | draft |
+| ECO.M.029 | Five Step Corporate Client Qualification | — | active |
+| ECO.M.030 | Triangulation Sale Vs Mechanism Vs Reproducibility | — | active |
+| ECO.M.031 | Launch Readiness Gate Four Conditions | — | draft |
 
 ## Work Products
 
@@ -117,11 +131,24 @@ generated: true
 
 ## Domain-Specific Entities
 
+### ARCH
+
+| ID | Name | Summary | Status |
+|----|------|---------|--------|
+| ECO.ARCH.001 | Архитектура экосистемы развития интеллекта | Как устроена экосистема: участники и оси их состояния, роли конвейера и способы их исполнения, потоки от метода до признания, типы экономических отношений, порядок изменения общих правил. | active |
+
 ### BC
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
-| ECO.BC.001 | 01A Bounded Context | — | — |
+| ECO.BC.001 | 01A Bounded Context | — | active |
+
+### CONCEPT
+
+| ID | Name | Summary | Status |
+|----|------|---------|--------|
+| ECO.CONCEPT.001 | Концепция экосистемы развития интеллекта | Зачем существует экосистема и что в ней развивается: три системы, четыре уровня, самоподдерживающееся развитие, культура развития, пять измерений результата, методы как общее содержание. | active |
+| ECO.CONCEPT.002 | Манифест созидателей | Обращение к людям: что остаётся за человеком в эпоху сильного ИИ, почему интеллект растёт в среде, что даёт экосистема сверх ИИ поставщика, инварианты и стандарт доступа. | active |
 
 ### PIPE
 
@@ -129,6 +156,12 @@ generated: true
 |----|------|---------|--------|
 | ECO.PIPE.001 | Конвейер продвижения | Оркестрирует путь от Лида до Покупателя/Члена сообщества — от лид-генерации до удержания (уровни 0-2 token-level воплощения WP-385); создаётся менеджером оргразвития, управляется операционным менеджером | draft |
 | ECO.PIPE.002 | Конвейер продюсирования | Переводит участника из состояния 'сообщества' в 'популярного/известного' — от участника до известности (уровни 3-4 token-level воплощения WP-385: hot-seat-разборы в Мастерской) | draft |
+
+### PRIN
+
+| ID | Name | Summary | Status |
+|----|------|---------|--------|
+| ECO.PRIN.001 | Свод принципов экосистемы развития интеллекта | Правила действия участников, организаций и агентов экосистемы со статусом каждого (принят, практикуется, гипотеза) и ядро из девяти принципов для входа. | active |
 
 ### ROLE
 
@@ -166,6 +199,13 @@ generated: true
 - Missing `summary`: ECO.D.008 (ECO.D.008-freemium-paid-vs-free-core.md)
 - Missing `summary`: ECO.D.009 (ECO.D.009-certification-as-value-driver-vs-product.md)
 - Missing `summary`: ECO.D.013 (ECO.D.013-cac-referral-vs-loyalty-budget.md)
+- Missing `summary`: ECO.D.021 (ECO.D.021-no-memory-vs-foreign-memory.md)
+- Missing `summary`: ECO.D.022 (ECO.D.022-status-message-vs-converting-message.md)
+- Missing `summary`: ECO.D.023 (ECO.D.023-tuition-payment-vs-product-demand.md)
+- Missing `summary`: ECO.D.024 (ECO.D.024-monotonic-milestone-vs-periodic-aggregate.md)
+- Missing `summary`: ECO.D.025 (ECO.D.025-minimal-sufficient-intervention-vs-ongoing-guidance.md)
+- Missing `summary`: ECO.D.026 (ECO.D.026-ai-completed-task-vs-human-mastered-method.md)
+- Missing `summary`: ECO.D.027 (ECO.D.027-taxonomy-crosswalk-vs-contradiction.md)
 - Missing `summary`: ECO.ROLE.001 (ECO.ROLE.001-ecosystem-roles.md)
 - Missing `summary`: ECO.D.010 (ECO.D.010-payment-models.md)
 - Missing `summary`: ECO.D.011 (ECO.D.011-retention-vs-cancel.md)
@@ -192,6 +232,10 @@ generated: true
 - Missing `summary`: ECO.M.020 (ECO.M.020-dual-channel-distribution.md)
 - Missing `summary`: ECO.M.025 (ECO.M.025-outcome-tags-support-log.md)
 - Missing `summary`: ECO.M.027 (ECO.M.027-benchmark-showcase-specific-competitor.md)
+- Missing `summary`: ECO.M.028 (ECO.M.028-signal-based-outbound.md)
+- Missing `summary`: ECO.M.029 (ECO.M.029-five-step-corporate-client-qualification.md)
+- Missing `summary`: ECO.M.030 (ECO.M.030-triangulation-sale-vs-mechanism-vs-reproducibility.md)
+- Missing `summary`: ECO.M.031 (ECO.M.031-launch-readiness-gate-four-conditions.md)
 - Missing `summary`: ECO.WP.001 (ECO.WP.001-ecosystem-work-products-catalog.md)
 - Missing `summary`: ECO.FM.001 (ECO.FM.001-fundraising-failure-modes.md)
 - Missing `summary`: ECO.FM.002 (ECO.FM.002-ecosystem-operations.md)
@@ -207,6 +251,38 @@ generated: true
 - Missing `summary`: ECO.MAP.BIND.001 (ECO.MAP.BIND.001-pack-to-db.md)
 - Missing `summary`: ECO.MAP.002 (s2r-view.md)
 
+## Staleness Warnings (>90 days since update)
+
+| ID | Days Since Update |
+|----|-------------------|
+| ECO.M.012 | 104 |
+| ECO.MAP.001 | 102 |
+| ECO.M.002 | 95 |
+| ECO.M.003 | 95 |
+| ECO.M.004 | 95 |
+| ECO.M.005 | 95 |
+| ECO.M.006 | 95 |
+| ECO.M.007 | 95 |
+| ECO.M.008 | 95 |
+| ECO.M.009 | 95 |
+| ECO.M.010 | 95 |
+| ECO.M.011 | 95 |
+| ECO.M.013 | 95 |
+| ECO.M.014 | 95 |
+| ECO.M.015 | 95 |
+| ECO.M.016 | 95 |
+| ECO.M.017 | 95 |
+| ECO.M.018 | 95 |
+| ECO.M.019 | 95 |
+| ECO.M.020 | 95 |
+| ECO.M.021 | 95 |
+| ECO.M.022 | 95 |
+| ECO.M.023 | 95 |
+| ECO.M.024 | 95 |
+| ECO.M.025 | 95 |
+| ECO.M.026 | 95 |
+| ECO.M.027 | 95 |
+
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-07-16*
+*Generated by `scripts/generate-map.py` on 2026-10-26*
