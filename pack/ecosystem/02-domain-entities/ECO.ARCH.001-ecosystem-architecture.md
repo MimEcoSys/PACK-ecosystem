@@ -134,6 +134,7 @@ related:
 
 ## Чего в документе нет
 
+- Устройства платформы и IWE как систем: [Архитектура платформы DP.ARCH.001](https://github.com/MimEcoSys/PACK-digital-platform/blob/main/pack/digital-platform/02-domain-entities/DP.ARCH.001-platform-architecture.md) и [Архитектура IWE DP.IWE.013](https://github.com/MimEcoSys/PACK-digital-platform/blob/main/pack/digital-platform/02-domain-entities/DP.IWE.013-iwe-architecture.md) (PACK-digital-platform); раздел о составе экосистемы из систем добавляется на уровне типов со ссылками на них.
 - Конкретных ветвей участия текущего года, конфигураций среды, цен, тарифов, чисел и сроков (стратегия организации, план года, PACK-digital-platform).
 - Реестра функций подписки и списка вариантов ИИ-среды (PACK-digital-platform).
 - Токенов, эмиссии, иерархии вознаграждения.
