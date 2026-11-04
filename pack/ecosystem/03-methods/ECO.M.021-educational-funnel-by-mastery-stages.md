@@ -2,16 +2,30 @@
 id: ECO.M.021
 type: method
 status: draft
-summary: "Educational product funnel by mastery stages with stage-gates and dual addressing — pattern для проектирования образовательного продукта как линейной воронки ступеней мастерства"
+summary: Educational product funnel by mastery stages with stage-gates and dual addressing — pattern для проектирования
+  образовательного продукта как линейной воронки ступеней мастерства
 created: 2026-06-01
 last_updated: 2026-07-23
 valid_from: 2026-06-01
 epistemic_stage: forming
-s2r_families: [F4]
+s2r_families:
+- F4
 related:
-  uses: [ECO.D.014, PD.FORM.089]
-  see_also: [ECO.M.010, ECO.M.018, MIM.M.031]
-source: "WP-385 (Программа Личного развития с наставниками) + WP-188 (Воронка продвижения)"
+  uses:
+  - ECO.D.014
+  - PD.FORM.089
+  see_also:
+  - ECO.M.010
+  - ECO.M.018
+  - MIM.M.031
+source: WP-385 (Программа Личного развития с наставниками) + WP-188 (Воронка продвижения)
+updated: '2026-11-04'
+accepted_additions:
+- source_candidate: 7
+  decision_source: pilot
+  decision_session: 2026-11-04-17-session
+  report: MC-sessions/2026-11/04/2026-11-04-17-session/report-draft.md
+  report_item: 3
 ---
 
 # Метод: Educational Funnel by Mastery Stages
@@ -64,6 +78,12 @@ _(Optional, WP-448 Ф12) Какие конкурирующие давления 
 
 - WP-385 «Программа Личного развития с наставниками» (PACK-personal target system, IWE)
 - (накопить ≥2 прецедента для promotion в active)
+
+## Объект работы и словарь текущей ступени
+
+При проектировании ступенчатой программы согласовывать объект работы участника, ожидаемый результат и словарь материалов с задачей текущей ступени. Не требовать рамку следующей ступени раньше, чем она нужна работе участника. Переход от дела к проекту и далее к работе с системой иллюстрирует рост масштаба; это не обязательная последовательность для всех программ.
+
+Источник дополнения: MC-sessions/2026-11/04/2026-11-04-17-session/report-draft.md — №3; восстановленный кандидат 7, DS-my-strategy@db98c7a94903b582c3467c40a7a11981f8125c96.
 
 ## 7. Связи
 

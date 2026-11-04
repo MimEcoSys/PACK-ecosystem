@@ -20,7 +20,7 @@ generated: true
 | ARCH (ARCH) | 1 |
 | BC (BC) | 1 |
 | CONCEPT (CONCEPT) | 2 |
-| Distinctions (D) | 21 |
+| Distinctions (D) | 22 |
 | Failure Modes (FM) | 3 |
 | Methods (M) | 34 |
 | Maps (MAP) | 3 |
@@ -31,7 +31,7 @@ generated: true
 | SoTA Annotations (SOTA) | 7 |
 | SYS (SYS) | 3 |
 | Work Products (WP) | 1 |
-| **Total** | **88** |
+| **Total** | **89** |
 
 ## Distinctions
 
@@ -58,6 +58,7 @@ generated: true
 | ECO.D.025 | Минимально достаточное развивающее воздействие ≠ Постоянное внешнее руководство | — | — |
 | ECO.D.026 | «ИИ выполнил задачу» ≠ «Человек освоил метод последующих изменений» | — | — |
 | ECO.D.027 | Две таксономии на разных осях ≠ Противоречие | — | — |
+| ECO.D.036 | Имя продукта и подзаголовок | При именовании продукта в линейке различать имя и подзаголовок. | active |
 
 ## Methods
 
