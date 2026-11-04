@@ -5,7 +5,7 @@ status: draft
 summary: Educational product funnel by mastery stages with stage-gates and dual addressing — pattern для проектирования
   образовательного продукта как линейной воронки ступеней мастерства
 created: 2026-06-01
-last_updated: 2026-07-23
+last_updated: 2026-11-04
 valid_from: 2026-06-01
 epistemic_stage: forming
 s2r_families:
@@ -19,7 +19,6 @@ related:
   - ECO.M.018
   - MIM.M.031
 source: WP-385 (Программа Личного развития с наставниками) + WP-188 (Воронка продвижения)
-updated: '2026-11-04'
 accepted_additions:
 - source_candidate: 7
   decision_source: pilot
