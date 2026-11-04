@@ -15,6 +15,11 @@ related:
   see_also:
   - ECO.M.021
 name_en: Product name and subtitle
+pack: PACK-ecosystem
+valid_from: '2026-11-04'
+schema_version: 1
+trust: medium
+epistemic_stage: forming
 ---
 
 # ECO.D.036 — Имя продукта и подзаголовок
