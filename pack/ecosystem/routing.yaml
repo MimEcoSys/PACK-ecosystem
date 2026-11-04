@@ -159,7 +159,7 @@ kinds:
 
   ECO.MAP:
     dir: pack/ecosystem/07-map/
-    id_pattern: 'ECO\.MAP\.\d{3}\.md$'   # реальность: единственный файл ECO.MAP.001.md, без slug после номера (см. RHE.MAP в PACK-rhetoric для того же паттерна)
+    id_pattern: 'ECO\.MAP\.\d{3}(-[a-z0-9-]+)?\.md$'   # реальность: ECO.MAP.001.md без slug, ECO.MAP.003-five-documents.md со slug (с 04.11.2026); ECO.MAP.002 — только в frontmatter s2r-view.md
     frontmatter_check: null   # реальность: frontmatter без поля type (id/name/scope/created/last_updated/generated)
     storage: file
 
