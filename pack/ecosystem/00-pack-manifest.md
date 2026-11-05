@@ -37,6 +37,13 @@
 
 | ID | Name | Kind | Summary | Status |
 |----|------|------|---------|--------|
+| D.ECO.001 | Экосистема ≠ Набор ресурсов | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.002 | Компонент ≠ Продукт | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.003 | Бесшовность ≠ Единообразие | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.004 | Путь ≠ Маршрут обучения | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.005 | Точка входа ≠ Начальный курс | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.006 | Качество экосистемы ≠ Качество компонентов (заменено) | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.007 | Обучение человека ≠ Обучение ИИ (но параллели) | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.ARCH.001 | Архитектура экосистемы развития интеллекта | ARCH | Как устроена экосистема: участники и оси их состояния, роли конвейера и способы их исполнения, потоки от метода до признания, типы экономических отношений, порядок изменения общих правил. | active |
 | ECO.BC.001 | 01A Bounded Context | BC | — | active |
 | ECO.CONCEPT.001 | Концепция экосистемы развития интеллекта | CONCEPT | Зачем существует экосистема и что в ней развивается: главная идея — созидание систем человеком с помощью системного мышления и своей ИИ-среды; три системы; культура сообщества и Библиотека методов; три владельца целей, что создаётся в работе, три состояния ИИ-среды, шесть уровней, самоподдерживающееся развитие и переходы между работой и развитием, культура развития, пять измерений результата, методы как общее содержание, кто создаёт экосистему. | active |
@@ -55,6 +62,8 @@
 | ECO.D.011 | Retention-сигнал ≠ Cancel | D | — | draft |
 | ECO.D.012 | Возмездная транзакция ≠ Учёт балансов | D | — | draft |
 | ECO.D.013 | CAC-бюджет рефералов ≠ loyalty-бюджет действующих пользователей | D | — | — |
+| ECO.D.019 | Платформенный трекер активности ≠ Прокси-измеритель | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.020 | Разрыв подачи: проданный результат ≠ публично доставляемое условие | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.021 | «У ИИ нет памяти» ≠ «У ИИ память есть, но она чужая» | D | — | — |
 | ECO.D.022 | Статусное сообщение («эксперт крутой → продукт крутой») ≠ Предметное описание пользы (механика + цена + цифра экономии) | D | — | — |
 | ECO.D.023 | Оплата обучения ≠ спрос на продукт; внутренний пилот ≠ внешний платный спрос; самостоятельное возвращение ≠ задание наставника | D | — | — |
@@ -62,7 +71,14 @@
 | ECO.D.025 | Минимально достаточное развивающее воздействие ≠ Постоянное внешнее руководство | D | — | — |
 | ECO.D.026 | «ИИ выполнил задачу» ≠ «Человек освоил метод последующих изменений» | D | — | — |
 | ECO.D.027 | Две таксономии на разных осях ≠ Противоречие | D | — | — |
-| ECO.D.035 | Входит в подписку ≠ За что платят | D | Функция, которую даёт и вендор, остаётся в подписке как сервис, но не идёт в довод о цене. Тест: «может ли это дать вендор или любой конкурент?» | draft |
+| ECO.D.028 | Экосистема (целое) ≠ её участники: организация, сообщество, платформа | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.029 | Человек ≠ ИИ-среда ≠ «Железный человек» (≠ «агент с ИИ») | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.030 | Конвейер ролей ≠ Воронка продвижения | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.031 | Роль ≠ Ступень мастерства ≠ Состояние членства | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.032 | Клуб ≠ Активное ядро | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.033 | Качество экосистемы: пять измерений ≠ конверсия переходов | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.034 | Баллы ≠ Бонусы ≠ Деньги | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.035 | Входит в подписку ≠ За что платят | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.036 | Имя продукта и подзаголовок | D | При именовании продукта в линейке различать имя и подзаголовок. | active |
 | ECO.FM.001 | Fundraising Failure Modes | FM | — | active |
 | ECO.FM.002 | Ecosystem Operations | FM | — | active |
@@ -101,7 +117,7 @@
 | ECO.M.032 | Проектирование экосистемы развития интеллекта | M | Метод описания устройства новой экосистемы (или перестройки существующей) через участников, роли, потоки, границу платного, признание и порядок изменения правил, чтобы независимый читатель восстановил устройство без чужих черновиков. | active |
 | ECO.M.033 | Путь автора в Библиотеку методов | M | Метод, по которому автор превращает свой способ действия в запись Библиотеки методов, находимую и применимую другими, с сохранением авторства, редакции и лицензии. | active |
 | ECO.M.034 | Создание пака по SPF | M | Метод, по которому автор или команда оформляет знание предметной области как пак, соответствующий форме SPF, с различениями, сущностями, методами и типовыми ошибками. | active |
-| ECO.MAP.001 | Pack Navigation Map | MAP | — | — |
+| ECO.MAP.001 | Pack Navigation Map | MAP | Auto-generated navigation map of all pack entities | — |
 | ECO.MAP.002 | S2R Domain View | MAP | — | — |
 | ECO.MAP.003 | Пять документов экосистемы | MAP | Набор из пяти документов, которые описывают экосистему, её цифровую платформу и ИИ-среду человека: какой вопрос решает каждый, для кого он, что в нём лежит, где он хранится, как часто меняется и что передаёт другим документам. | draft |
 | ECO.MAP.BIND.001 | Мост Pack↔БД: системы продвижения → Neon | MAP | — | draft |
@@ -129,7 +145,26 @@
 | ECO.SYS.003 | Член сообщества | SYS | Индивидуальный участник Сообщества с траекторией наставник → мастер, растущей характеристикой популярности/узнаваемости — объект-система с индивидуальным жизненным циклом внутри ECO.SYS.002 | draft |
 | ECO.WP.001 | Ecosystem Work Products Catalog | WP | — | active |
 
-> *Auto-generated by `generate-map.py` on 2026-11-04*
+### Warnings
+
+- Swapped-format ID pair: D.ECO.001 and ECO.D.001 are different entities — pack owner: D.ECO.001 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.002 and ECO.D.002 are different entities — pack owner: D.ECO.002 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.003 and ECO.D.003 are different entities — pack owner: D.ECO.003 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.004 and ECO.D.004 are different entities — pack owner: D.ECO.004 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.005 and ECO.D.005 are different entities — pack owner: D.ECO.005 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.006 and ECO.D.006 are different entities — pack owner: D.ECO.006 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.007 and ECO.D.007 are different entities — pack owner: D.ECO.007 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+
+### Notes on indexed ID scope
+
+Only files with frontmatter `id` and ID-headed sections of `*distinctions.md` are indexed. These ID headings are not:
+
+- D.FR.001 in 03-methods/ECO.M.001-fundraising.md — not a pack entity; pack owner: if it is a distinction of its own, move it to its own file (SPF.SPEC.003)
+- D.FR.002 in 03-methods/ECO.M.001-fundraising.md — not a pack entity; pack owner: if it is a distinction of its own, move it to its own file (SPF.SPEC.003)
+- D.FR.003 in 03-methods/ECO.M.001-fundraising.md — not a pack entity; pack owner: if it is a distinction of its own, move it to its own file (SPF.SPEC.003)
+- D.FR.004 in 03-methods/ECO.M.001-fundraising.md — not a pack entity; pack owner: if it is a distinction of its own, move it to its own file (SPF.SPEC.003)
+
+> *Auto-generated by `generate-map.py` on 2026-11-05*
 
 ## Business sub-domain (v1 mini)
 

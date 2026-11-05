@@ -1,15 +1,16 @@
 ---
 id: ECO.MAP.001
 name: Pack Navigation Map
+summary: Auto-generated navigation map of all pack entities
 scope: full-pack
 created: 2026-11-04
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 generated: true
 ---
 
 # [ECO.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-11-04. Do not edit manually.
+> Auto-generated from frontmatter on 2026-11-05. Do not edit manually.
 
 ---
 
@@ -20,23 +21,30 @@ generated: true
 | ARCH (ARCH) | 1 |
 | BC (BC) | 1 |
 | CONCEPT (CONCEPT) | 2 |
-| Distinctions (D) | 22 |
+| Distinctions (D) | 39 |
 | Failure Modes (FM) | 3 |
 | Methods (M) | 34 |
 | Maps (MAP) | 4 |
 | PIPE (PIPE) | 2 |
 | PRIN (PRIN) | 1 |
 | ROLE (ROLE) | 1 |
-| SC (SC) | 8 |
+| Service Clauses (SC) | 8 |
 | SoTA Annotations (SOTA) | 7 |
 | SYS (SYS) | 3 |
 | Work Products (WP) | 1 |
-| **Total** | **90** |
+| **Total** | **107** |
 
 ## Distinctions
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
+| D.ECO.001 | Экосистема ≠ Набор ресурсов | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.002 | Компонент ≠ Продукт | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.003 | Бесшовность ≠ Единообразие | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.004 | Путь ≠ Маршрут обучения | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.005 | Точка входа ≠ Начальный курс | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.006 | Качество экосистемы ≠ Качество компонентов (заменено) | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| D.ECO.007 | Обучение человека ≠ Обучение ИИ (но параллели) | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.000 | 01B Distinctions | — | — |
 | ECO.D.001 | SAFE ≠ Convertible Note ≠ Priced Equity Round | — | active |
 | ECO.D.002 | Lean Canvas ≠ Business Model Canvas | — | active |
@@ -51,6 +59,8 @@ generated: true
 | ECO.D.011 | Retention-сигнал ≠ Cancel | — | draft |
 | ECO.D.012 | Возмездная транзакция ≠ Учёт балансов | — | draft |
 | ECO.D.013 | CAC-бюджет рефералов ≠ loyalty-бюджет действующих пользователей | — | — |
+| ECO.D.019 | Платформенный трекер активности ≠ Прокси-измеритель | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.020 | Разрыв подачи: проданный результат ≠ публично доставляемое условие | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.021 | «У ИИ нет памяти» ≠ «У ИИ память есть, но она чужая» | — | — |
 | ECO.D.022 | Статусное сообщение («эксперт крутой → продукт крутой») ≠ Предметное описание пользы (механика + цена + цифра экономии) | — | — |
 | ECO.D.023 | Оплата обучения ≠ спрос на продукт; внутренний пилот ≠ внешний платный спрос; самостоятельное возвращение ≠ задание наставника | — | — |
@@ -58,6 +68,14 @@ generated: true
 | ECO.D.025 | Минимально достаточное развивающее воздействие ≠ Постоянное внешнее руководство | — | — |
 | ECO.D.026 | «ИИ выполнил задачу» ≠ «Человек освоил метод последующих изменений» | — | — |
 | ECO.D.027 | Две таксономии на разных осях ≠ Противоречие | — | — |
+| ECO.D.028 | Экосистема (целое) ≠ её участники: организация, сообщество, платформа | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.029 | Человек ≠ ИИ-среда ≠ «Железный человек» (≠ «агент с ИИ») | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.030 | Конвейер ролей ≠ Воронка продвижения | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.031 | Роль ≠ Ступень мастерства ≠ Состояние членства | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.032 | Клуб ≠ Активное ядро | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.033 | Качество экосистемы: пять измерений ≠ конверсия переходов | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.034 | Баллы ≠ Бонусы ≠ Деньги | Раздел в 01-domain-contract/01B-distinctions.md | — |
+| ECO.D.035 | Входит в подписку ≠ За что платят | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.036 | Имя продукта и подзаголовок | При именовании продукта в линейке различать имя и подзаголовок. | active |
 
 ## Methods
@@ -129,7 +147,7 @@ generated: true
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
-| ECO.MAP.001 | Pack Navigation Map | — | — |
+| ECO.MAP.001 | Pack Navigation Map | Auto-generated navigation map of all pack entities | — |
 | ECO.MAP.002 | S2R Domain View | — | — |
 | ECO.MAP.003 | Пять документов экосистемы | Набор из пяти документов, которые описывают экосистему, её цифровую платформу и ИИ-среду человека: какой вопрос решает каждый, для кого он, что в нём лежит, где он хранится, как часто меняется и что передаёт другим документам. | draft |
 | ECO.MAP.BIND.001 | Мост Pack↔БД: системы продвижения → Neon | — | draft |
@@ -174,7 +192,7 @@ generated: true
 |----|------|---------|--------|
 | ECO.ROLE.001 | Ecosystem Roles | — | active |
 
-### SC
+### Service Clauses
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
@@ -197,6 +215,13 @@ generated: true
 
 ## Warnings
 
+- Swapped-format ID pair: D.ECO.001 and ECO.D.001 are different entities — pack owner: D.ECO.001 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.002 and ECO.D.002 are different entities — pack owner: D.ECO.002 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.003 and ECO.D.003 are different entities — pack owner: D.ECO.003 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.004 and ECO.D.004 are different entities — pack owner: D.ECO.004 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.005 and ECO.D.005 are different entities — pack owner: D.ECO.005 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.006 and ECO.D.006 are different entities — pack owner: D.ECO.006 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
+- Swapped-format ID pair: D.ECO.007 and ECO.D.007 are different entities — pack owner: D.ECO.007 uses the legacy KIND.DOMAIN form (SPF.SPEC.001)
 - Missing `summary`: ECO.BC.001 (01A-bounded-context.md)
 - Missing `summary`: ECO.D.000 (01B-distinctions.md)
 - Missing `summary`: ECO.D.001 (ECO.D.001-safe-vs-note-vs-priced.md)
@@ -257,7 +282,6 @@ generated: true
 - Missing `summary`: ECO.SOTA.005 (ECO.SOTA.005-edtech-product-metrics-2025-2026.md)
 - Missing `summary`: ECO.SOTA.006 (ECO.SOTA.006-edtech-regulatory-2025-2026.md)
 - Missing `summary`: ECO.SOTA.007 (ECO.SOTA.007-remote-first-teams-2025-2026.md)
-- Missing `summary`: ECO.MAP.001 (ECO.MAP.001.md)
 - Missing `summary`: ECO.MAP.BIND.001 (ECO.MAP.BIND.001-pack-to-db.md)
 - Missing `summary`: ECO.MAP.002 (s2r-view.md)
 
@@ -265,33 +289,32 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| ECO.M.012 | 113 |
-| ECO.M.002 | 104 |
-| ECO.M.003 | 104 |
-| ECO.M.004 | 104 |
-| ECO.M.005 | 104 |
-| ECO.M.006 | 104 |
-| ECO.M.007 | 104 |
-| ECO.M.008 | 104 |
-| ECO.M.009 | 104 |
-| ECO.M.010 | 104 |
-| ECO.M.011 | 104 |
-| ECO.M.013 | 104 |
-| ECO.M.014 | 104 |
-| ECO.M.015 | 104 |
-| ECO.M.016 | 104 |
-| ECO.M.017 | 104 |
-| ECO.M.018 | 104 |
-| ECO.M.019 | 104 |
-| ECO.M.020 | 104 |
-| ECO.M.021 | 104 |
-| ECO.M.022 | 104 |
-| ECO.M.023 | 104 |
-| ECO.M.024 | 104 |
-| ECO.M.025 | 104 |
-| ECO.M.026 | 104 |
-| ECO.M.027 | 104 |
+| ECO.M.012 | 114 |
+| ECO.M.002 | 105 |
+| ECO.M.003 | 105 |
+| ECO.M.004 | 105 |
+| ECO.M.005 | 105 |
+| ECO.M.006 | 105 |
+| ECO.M.007 | 105 |
+| ECO.M.008 | 105 |
+| ECO.M.009 | 105 |
+| ECO.M.010 | 105 |
+| ECO.M.011 | 105 |
+| ECO.M.013 | 105 |
+| ECO.M.014 | 105 |
+| ECO.M.015 | 105 |
+| ECO.M.016 | 105 |
+| ECO.M.017 | 105 |
+| ECO.M.018 | 105 |
+| ECO.M.019 | 105 |
+| ECO.M.020 | 105 |
+| ECO.M.022 | 105 |
+| ECO.M.023 | 105 |
+| ECO.M.024 | 105 |
+| ECO.M.025 | 105 |
+| ECO.M.026 | 105 |
+| ECO.M.027 | 105 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-11-04*
+*Generated by `scripts/generate-map.py` on 2026-11-05*
