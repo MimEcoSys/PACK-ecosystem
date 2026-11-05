@@ -101,19 +101,21 @@ _(Optional, WP-448 Ф12) Какие конкурирующие давления 
 
 ## 5. Различения (fundraising-специфичные)
 
-### D.FR.001: Traction ≠ Vanity metrics
+> Пункты 5.1–5.4 — локальные пункты этого метода, не сущности пака и без собственных кодов (SPF.SPEC.001). Прежние метки D.FR.001–004 сняты 05.11.2026 (РП-7, решение владельца пака): они не соответствовали формату кода и не имели своих файлов.
+
+### 5.1 Traction ≠ Vanity metrics
 - **Traction:** revenue, retention, NPS, paying customers, B2B contracts
 - **Vanity:** downloads, registrations, page views, social followers
 
-### D.FR.002: Valuation ≠ Revenue multiple
+### 5.2 Valuation ≠ Revenue multiple
 - На seed: оценка = потенциал × команда × moat, не просто N × ARR
 - Фреймворк: Berkus, Scorecard, Risk Factor Summation
 
-### D.FR.003: Dilution — не потеря, а обмен
+### 5.3 Dilution — не потеря, а обмен
 - 20% за $10M при $50M post-money: основатели владеют 80% компании стоимостью $50M
 - Правило: dilution 15-25% за раунд — нормально. >30% — красный флаг
 
-### D.FR.004: PMF signals (seed stage)
+### 5.4 PMF signals (seed stage)
 - Retention >40% через 6 мес
 - Organic growth (word-of-mouth)
 - Платящие клиенты без скидок
@@ -128,7 +130,7 @@ _(Optional, WP-448 Ф12) Куда систематически съезжает 
 
 | Bias | Direction of distortion |
 |------|--------------------------|
-| Vanity metrics вместо traction | Внимание непроизвольно съезжает на легко предъявляемые числа (downloads, регистрации) вместо труднее добываемых, но значимых (revenue, retention) — см. D.FR.001 |
+| Vanity metrics вместо traction | Внимание непроизвольно съезжает на легко предъявляемые числа (downloads, регистрации) вместо труднее добываемых, но значимых (revenue, retention) — см. §5.1 |
 | Top-down projection как оптимизм | «$100B TAM × 1%» кажется убедительным основателю именно потому, что не требует признания узких мест воронки; bottom-up модель (cohort × conversion × ARPU) вскрывает слабые места, которые top-down прячет |
 
 ## 6. Failure modes
