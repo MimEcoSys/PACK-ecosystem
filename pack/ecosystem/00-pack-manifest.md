@@ -81,6 +81,7 @@
 | ECO.D.034 | Баллы ≠ Бонусы ≠ Деньги | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.035 | Входит в подписку ≠ За что платят | D | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.036 | Имя продукта и подзаголовок | D | При именовании продукта в линейке различать имя и подзаголовок. | active |
+| ECO.D.037 | Автор метода ≠ автор описания метода | D | У карточки чужого метода два авторства и две правовые основы; лицензия на описание не распространяется на первоисточник | draft |
 | ECO.FM.001 | Fundraising Failure Modes | FM | — | active |
 | ECO.FM.002 | Ecosystem Operations | FM | — | active |
 | ECO.FM.003 | Superiority Claim Without Dataset | FM | — | active |
