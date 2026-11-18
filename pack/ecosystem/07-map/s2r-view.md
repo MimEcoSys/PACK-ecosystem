@@ -60,4 +60,4 @@ generated: true
 - `05-failure-modes/ECO.FM.003-superiority-claim-without-dataset.md` — нет тега `s2r_families`
 
 ---
-*Generated on 2026-11-18 11:32*
+*Generated on 2026-11-18 12:12*
