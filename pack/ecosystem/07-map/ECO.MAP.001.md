@@ -4,7 +4,7 @@ name: Pack Navigation Map
 summary: Auto-generated navigation map of all pack entities
 scope: full-pack
 created: 2026-11-04
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 generated: true
 ---
 
@@ -77,6 +77,7 @@ generated: true
 | ECO.D.034 | Баллы ≠ Бонусы ≠ Деньги | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.035 | Входит в подписку ≠ За что платят | Раздел в 01-domain-contract/01B-distinctions.md | — |
 | ECO.D.036 | Имя продукта и подзаголовок | При именовании продукта в линейке различать имя и подзаголовок. | active |
+| ECO.D.037 | Автор метода ≠ автор описания метода | У карточки чужого метода два авторства и две правовые основы; лицензия на описание не распространяется на первоисточник | draft |
 
 ## Methods
 
