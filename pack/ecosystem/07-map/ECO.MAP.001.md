@@ -4,7 +4,7 @@ name: Pack Navigation Map
 summary: Auto-generated navigation map of all pack entities
 scope: full-pack
 created: 2026-11-04
-last_updated: 2026-11-18
+last_updated: 2026-11-20
 generated: true
 ---
 
@@ -28,11 +28,11 @@ generated: true
 | PIPE (PIPE) | 2 |
 | PRIN (PRIN) | 1 |
 | ROLE (ROLE) | 1 |
-| Service Clauses (SC) | 8 |
+| Service Clauses (SC) | 9 |
 | SoTA Annotations (SOTA) | 7 |
 | SYS (SYS) | 3 |
 | Work Products (WP) | 1 |
-| **Total** | **111** |
+| **Total** | **112** |
 
 ## Distinctions
 
